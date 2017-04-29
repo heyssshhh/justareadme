@@ -10,9 +10,7 @@ In this workshop, you will learn how to use gulp to tie together other cool tech
 
 `npm install --save-dev gulp`
 
-**Open `gulpfile.js`**
-
-:rocket: There's a file called gulpfile.js in your project root. Open it! This is the file we will be working work in.  Let's make sure we can use gulp by finding the tag that says **"//include gulp"** and under that add:
+:rocket: **Open `gulpfile.js`** This is the file we will be working work in.  Let's make sure we can use gulp by finding the tag that says **"//include gulp"** and under that add:
 
 `const gulp = require('gulp');`
 
@@ -75,7 +73,7 @@ const coffee = require('gulp-coffee');
 ```
 jshint is used for linting, rename is for renaming our compiled fires, imagemin is for image compression, uglify and concat is for minimizing and concatinating our js files, and coffee is for converting CoffeeScript into Javascript. Basically, we want to compile and minisize our files and give them a desired name in the destination folder, make our images take up less space,and make sure everything is properly linted.
 
-:rocker: Under **"// Lint Task"** add:
+:rocket: Under **"// Lint Task"** add:
 ```
 gulp.task('lint', () => {
   return gulp.src('src/*.js')
@@ -83,7 +81,7 @@ gulp.task('lint', () => {
         .pipe(jshint.reporter('default'));
 });
 ```
-:rocker: Under **"// mininize images"** add:
+:rocket: Under **"// mininize images"** add:
 ```
 gulp.task('images', () => {
   return gulp.src('src/img/*')
@@ -91,7 +89,7 @@ gulp.task('images', () => {
         .pipe(gulp.dest('dist/images'));
 });
 ```
-:rocker: Under **"// Compile CoffeeScript,Concatenate & Minify JS"** add:
+:rocket: Under **"// Compile CoffeeScript,Concatenate & Minify JS"** add:
 ```
 gulp.task('coffee', function() {
   gulp.src('./src/*.coffee')
