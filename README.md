@@ -14,7 +14,7 @@ In this workshop, you will learn how to use gulp to tie together other cool tech
 
 `const gulp = require('gulp');`
 
-Great! Now we'll add in a plugin for sass and Pug that will compile our files into html and css
+Great! Now we'll add in a plugin for sass and Pug that will compile our files into css and html.
 
 ## Adding plugins
 
