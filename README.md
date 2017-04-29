@@ -2,6 +2,9 @@
 
 In this workshop, you will learn how to use gulp to tie together other cool technologies shown in other workshops. We can convert pug into html, sass into css, and deploy easily using gulp!
 
+## Get Started
+:fork_and_knife: Fork this repo and clone the forked copy as usual! Open up terminal and go to your local copy.
+
 ## Setting up gulp
 
 :rocket: **Run these two commands in your project directory to install gulp:**
