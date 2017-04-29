@@ -10,11 +10,13 @@ In this workshop, you will learn how to use gulp to tie together other cool tech
 
 `npm install --save-dev gulp`
 
-:rocket: **Open `gulpfile.js`** This is the file we will be working work in.  Let's make sure we can use gulp by finding the tag that says **"//include gulp"** and under that add:
+:rocket: Open **`gulpfile.js`** This is the file we will be working work in.  Let's make sure we can use gulp by finding the tag that says "//include gulp" and under that add:
 
 `const gulp = require('gulp');`
 
 Great! First, we'll add in a plugin for sass and Pug that will compile our files into html and css
+
+## Adding plugins 
 
 ### SASS
 
